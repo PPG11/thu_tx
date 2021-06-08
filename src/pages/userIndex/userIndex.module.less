@@ -1,0 +1,59 @@
+.index,
+.box2,
+.box21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.index {
+  height: 100%;
+  background-image: url('http://wepractice.student.tsinghua.edu.cn/public/images/bg.png');
+  background-size: 100%;
+  background-position: 0 -60rpx;
+}
+
+.logobox {
+  padding: 180rpx 0;
+}
+
+.box2 {
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 60rpx 0;
+  width: 100%;
+  .box21 {
+    height: 50%;
+    justify-content: space-between;
+    .login {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 96rpx;
+      width: 600rpx;
+      line-height: 96rpx;
+      background-image: url('http://wepractice.student.tsinghua.edu.cn/public/images/bton_06.png');
+      background-size: 100%;
+      color: #fff;
+      font-size: 32rpx;
+      border-radius: 6rpx;
+    }
+    .map {
+      font-size: 28rpx;
+      padding-top: 30rpx;
+    }
+  }
+  .infobox {
+    display: flex;
+    font-size: 28rpx;
+    align-items: center;
+    justify-content: center;
+    .info {
+      display: flex;
+    }
+    .manage {
+      display: flex;
+    }
+  }
+}

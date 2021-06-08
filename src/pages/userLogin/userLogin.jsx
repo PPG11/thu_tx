@@ -1,10 +1,8 @@
 // import React from "react";
-import { View, Text, Navigator } from '@tarojs/components'
-// import { View } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import style from './userLogin.module.less'
 import Logo from '../../component/Logo'
 import UserLogin from '../../component/UserLogin'
-
 
 export default () => {
   return (

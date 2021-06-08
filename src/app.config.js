@@ -1,6 +1,6 @@
 export default {
   pages: [
-    'pages/userLogin/userLogin'
+    'pages/managerIndex/managerIndex'
   ],
   window: {
     backgroundTextStyle: 'light',

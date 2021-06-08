@@ -1,3 +1,3 @@
 export default {
-  navigationBarTitleText: '登陆入口'
+  navigationBarTitleText: '登录入口'
 }
