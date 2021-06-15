@@ -1,0 +1,60 @@
+.outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-top: 1.5rpx solid white;
+  border-bottom: 1.5rpx solid white;
+  font-size: 32rpx;
+  color: #000;
+}
+
+.label {
+  width: 25%;
+  padding-top: 14rpx;
+  padding-left: 14rpx;
+  line-height: 72rpx;
+}
+
+.hot::before {
+  content: '*';
+  color: red;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 75%;
+  margin: 14rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  border: 2rpx solid #bfbfbf;
+  background-color: #fff;
+  color: #333;
+  padding: 0 22rpx;
+}
+
+.radio {
+  font-size: 28rpx;
+  margin: 14rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  .radioItem {
+    padding-right: 16rpx;
+  }
+}
+
+.commit {
+  background: orange;
+  // border: 2rpx solid orange;
+  width: 100%;
+  font-size: 32rpx;
+  color: #fff;
+  border-radius: 10rpx;
+  margin: 20rpx 40rpx 40rpx;
+}

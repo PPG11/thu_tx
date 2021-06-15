@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 2610435 */
+  src: url('//at.alicdn.com/t/font_2610435_8w871166wy7.woff2?t=1623671655688') format('woff2'),
+       url('//at.alicdn.com/t/font_2610435_8w871166wy7.woff?t=1623671655688') format('woff'),
+       url('//at.alicdn.com/t/font_2610435_8w871166wy7.ttf?t=1623671655688') format('truetype');
+}
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  // height: 100rpx;
+  // border: 5rpx solid rgb(141, 141, 141);
+  background: #fff;
+  margin: 8rpx 0;
+  padding: 20rpx 20rpx;
+}
+
+.top,
+.mid,
+.down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top {
+  .tag {
+    padding: 0 16rpx;
+    border-radius: 26rpx;
+    background: #563579;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+    color: #fff;
+    line-height: 52rpx;
+    height: 52rpx;
+    width: 120rpx;
+    font-size: 28rpx;
+    .logo {
+      font-family: 'iconfont';
+      font-size: 40rpx;
+      padding-right: 4rpx;
+    }
+  } 
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    font-size: 32rpx;
+    width: 380rpx;
+    text-align: left;
+  }
+  .important {
+    width: 110rpx;
+    font-size: 24rpx;
+    color: orange;
+    text-align: right;
+  }
+  .num {
+    color: #00cc00;
+    font-size: 40rpx;
+    min-width: 110rpx;
+    text-align: right;
+  }
+}
+
+.mid {
+  display: flex;
+  padding: 40rpx 0;
+  font-size: 28rpx;
+  .founder {
+    color: #888;
+  }
+  .projectType {
+    color: #563579;
+    text-align: right;
+  }
+}
+
+.down {
+  font-size: 28rpx;
+  .date {
+    color: #888;
+  }
+  .location {
+    color: #888;
+  }
+  .likes {
+    color: #f33;
+  }
+}
