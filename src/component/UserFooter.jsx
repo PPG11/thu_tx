@@ -29,7 +29,7 @@ export default ({focusIdx, setFocusIdx}) => {
         }}
       >
         <View className={style.icon}>&#xe608;</View>
-        <View className={style.tag}>我的项目</View>
+        <View className={style.tag}>我的</View>
       </View>
       <View
         className={`${style.item} ${focusIdx == 4 ? style.focus : style.item}`}
